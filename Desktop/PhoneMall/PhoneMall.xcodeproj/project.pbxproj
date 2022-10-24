@@ -16,10 +16,11 @@
 		3F4A8EF528AFC09300B5E646 /* MyCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A8EF428AFC09300B5E646 /* MyCartVC.swift */; };
 		3F4A8EF828B280EE00B5E646 /* PhoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A8EF728B280EE00B5E646 /* PhoneData.swift */; };
 		3F4A8EFB28B3B2C700B5E646 /* PhoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A8EFA28B3B2C700B5E646 /* PhoneManager.swift */; };
-		3F4A8EFD28B3C5CA00B5E646 /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A8EFC28B3C5CA00B5E646 /* PhoneModel.swift */; };
 		3F4A8F0228B6986F00B5E646 /* CustomCellSection1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A8F0128B6986F00B5E646 /* CustomCellSection1.swift */; };
 		3F4A8F0428B6A64500B5E646 /* CustomCellSection2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A8F0328B6A64500B5E646 /* CustomCellSection2.swift */; };
 		3FB8FBE428B6AF7A003F8D1D /* CustomCellSection3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8FBE328B6AF7A003F8D1D /* CustomCellSection3.swift */; };
+		3FD5A01A28C7B31F005D6F6C /* EasyPhoneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5A01928C7B31F005D6F6C /* EasyPhoneData.swift */; };
+		3FF67DCF28D34F1F0034CD19 /* ProductDetailsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF67DCE28D34F1F0034CD19 /* ProductDetailsCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +35,11 @@
 		3F4A8EF428AFC09300B5E646 /* MyCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartVC.swift; sourceTree = "<group>"; };
 		3F4A8EF728B280EE00B5E646 /* PhoneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneData.swift; sourceTree = "<group>"; };
 		3F4A8EFA28B3B2C700B5E646 /* PhoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneManager.swift; sourceTree = "<group>"; };
-		3F4A8EFC28B3C5CA00B5E646 /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
 		3F4A8F0128B6986F00B5E646 /* CustomCellSection1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellSection1.swift; sourceTree = "<group>"; };
 		3F4A8F0328B6A64500B5E646 /* CustomCellSection2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellSection2.swift; sourceTree = "<group>"; };
 		3FB8FBE328B6AF7A003F8D1D /* CustomCellSection3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellSection3.swift; sourceTree = "<group>"; };
+		3FD5A01928C7B31F005D6F6C /* EasyPhoneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyPhoneData.swift; sourceTree = "<group>"; };
+		3FF67DCE28D34F1F0034CD19 /* ProductDetailsCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +74,7 @@
 			children = (
 				3F4A8F0028B6985D00B5E646 /* View */,
 				3F4A8EF628AFC1B000B5E646 /* Resourses  */,
-				3F4A8EF028AFC06B00B5E646 /* HomeVC.swift */,
 				3F4A8EF928B3B2B900B5E646 /* Model */,
-				3F4A8EF228AFC08B00B5E646 /* ProductDetailsVC.swift */,
-				3F4A8EF428AFC09300B5E646 /* MyCartVC.swift */,
 				3F4A8EE528AFC01F00B5E646 /* Assets.xcassets */,
 				3F4A8EE728AFC01F00B5E646 /* LaunchScreen.storyboard */,
 				3F4A8EEA28AFC01F00B5E646 /* Info.plist */,
@@ -96,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				3F4A8EF728B280EE00B5E646 /* PhoneData.swift */,
+				3FD5A01928C7B31F005D6F6C /* EasyPhoneData.swift */,
 				3F4A8EFA28B3B2C700B5E646 /* PhoneManager.swift */,
-				3F4A8EFC28B3C5CA00B5E646 /* PhoneModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,11 +104,47 @@
 		3F4A8F0028B6985D00B5E646 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3FF67DCD28D344470034CD19 /* MyCartVC */,
+				3FF67DCC28D343E10034CD19 /* ProductDetailsVC */,
+				3FF67DCA28D343850034CD19 /* HomeVC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FF67DCA28D343850034CD19 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A8EF028AFC06B00B5E646 /* HomeVC.swift */,
+				3FF67DCB28D343A50034CD19 /* CustomCells */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		3FF67DCB28D343A50034CD19 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
 				3F4A8F0128B6986F00B5E646 /* CustomCellSection1.swift */,
 				3F4A8F0328B6A64500B5E646 /* CustomCellSection2.swift */,
 				3FB8FBE328B6AF7A003F8D1D /* CustomCellSection3.swift */,
 			);
-			path = View;
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		3FF67DCC28D343E10034CD19 /* ProductDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A8EF228AFC08B00B5E646 /* ProductDetailsVC.swift */,
+				3FF67DCE28D34F1F0034CD19 /* ProductDetailsCustomCell.swift */,
+			);
+			path = ProductDetailsVC;
+			sourceTree = "<group>";
+		};
+		3FF67DCD28D344470034CD19 /* MyCartVC */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A8EF428AFC09300B5E646 /* MyCartVC.swift */,
+			);
+			path = MyCartVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,10 +224,11 @@
 				3F4A8EFB28B3B2C700B5E646 /* PhoneManager.swift in Sources */,
 				3F4A8EF128AFC06B00B5E646 /* HomeVC.swift in Sources */,
 				3F4A8EF328AFC08B00B5E646 /* ProductDetailsVC.swift in Sources */,
+				3FD5A01A28C7B31F005D6F6C /* EasyPhoneData.swift in Sources */,
 				3F4A8F0228B6986F00B5E646 /* CustomCellSection1.swift in Sources */,
 				3F4A8EDD28AFC01E00B5E646 /* AppDelegate.swift in Sources */,
-				3F4A8EFD28B3C5CA00B5E646 /* PhoneModel.swift in Sources */,
 				3F4A8EDF28AFC01E00B5E646 /* SceneDelegate.swift in Sources */,
+				3FF67DCF28D34F1F0034CD19 /* ProductDetailsCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

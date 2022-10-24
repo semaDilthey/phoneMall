@@ -1,12 +1,12 @@
+////
+////  DataManager.swift
+////  PhoneMall
+////
+////  Created by Семен Гайдамакин on 21.08.2022.
+////
 //
-//  DataManager.swift
-//  PhoneMall
+//import Foundation
 //
-//  Created by Семен Гайдамакин on 21.08.2022.
-//
-
-import Foundation
-
 //struct PhoneData : Codable {
 //    
 //    let homeStore : [Store]

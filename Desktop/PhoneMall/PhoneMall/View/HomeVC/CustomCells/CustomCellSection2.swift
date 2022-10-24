@@ -25,14 +25,14 @@ class CustomCellSection2: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private let mainImage : UIImageView = {
+    var mainImage : UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "pp1")
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
     }()
     
-    private let isNewImage : UIImageView = {
+    lazy var isNewImage : UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
         image.image = UIImage(systemName: "house")
@@ -40,7 +40,7 @@ class CustomCellSection2: UICollectionViewCell {
         return image
     }()
     
-    private let phoneTitleLabel : UILabel = {
+    lazy var phoneTitleLabel : UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "IPHONE"
@@ -48,7 +48,7 @@ class CustomCellSection2: UICollectionViewCell {
         return label
     }()
     
-    private let subtitleLabel : UILabel = {
+    lazy var subtitleLabel : UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "some words bout phone"
